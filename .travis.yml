@@ -15,8 +15,8 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "eu-west-2"
-  app: "satdsdocker"
-  env: "Satdsdocker-env"
+  app: "newsatdsdker"
+  env: "Newsatdsdker-env"
   bucket_name: "elasticbeanstalk-eu-west-2-788100603059"
   bucket_path: "satdsdocker"
   on:
