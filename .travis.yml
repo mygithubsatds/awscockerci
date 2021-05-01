@@ -1,0 +1,20 @@
+sudo: required
+language: generic
+
+services:
+  - docker
+
+before_install:
+<<<<<<< HEAD
+  - docker build -t stephengrider/docker-react -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true stephengrider/docker-react npm run test
+=======
+  - docker build -t 22222286s/docker-act -f Dockerfile.dev .
+
+script:
+  - docker run -e CI=true 22222286s/docker-act npm run test
+
+
+>>>>>>> c7f496a49a66d4e882c4fc0512ce10c3ec7365fa
